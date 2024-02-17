@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,160 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
+<body class="lg:mx-20 ">
+    <header class=" px-6 my-4">
+     
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                     
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl">P-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li>
+                  
+                </li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn">Bus <img  src="images/bus-icon.png" alt=""> </a>
+               
+            </div>
+          </div>
+
+    </header>
+
+  <!-- -------------banner section--------   -->
+<section>
+<div class=" h-screen bg-no-repeat bg-contain "
+style="background-image: url('images/banner.png');">
+<h1 class=" lg:text-5xl text-white text-center p-16 font-extrabold">End-to-End Travel with <br><span class="text-emerald-400">P Paribahan</span></h1>
+<p class="lg:text-white text-center lg:mx-28 font-serif">A bus is a large motor vehicle which carries passengers from one place to another. Buses drive along particular routes, and you have to pay to travel in them. </p>
+<button class="lg:btn btn-success mx-[450px] my-4 lg:my-10 text-white">Buy Tickets</button>
+</div>
+</section>
+
+    <main>
+
+      <!--offer section  -->
+
+    <section>
+  <h1 class="text-center text-5xl font-extrabold  p-5">Best offers for you</h1>
+  <div class="lg:flex justify-around my-16">
+
+    <div class=" gap-4">
+      <div class="card card-side bg-base-100 shadow-xl bg-red-400 p-8">
+      
+      <div class="card-body">
+        <h2 class="card-title font-extrabold text-3xl">15% OFF</h2>
+        <p>on your next purchase</p>
+        <p>use by January 2024</p>
+      </div>
+
+      <div class="card-body">
+        <h2 class="card-title font-extrabold text-3xl">NEW15</h2>
+        <p>Coupon Code</p>
+        
+      </div>
+    </div></div>
+    <div class=" ">
+      <div class="card card-side bg-base-100 shadow-xl bg-yellow-300 p-8">
+      <div class="card-body">
+        <h2 class="card-title font-extrabold text-3xl">20% OFF</h2>
+        <p>on your next purchase</p>
+        <p>use by January 2024</p>
+      </div>
+
+      <div class="card-body">
+        <h2 class=" text-3xl card-title font-extrabold">Couple 20</h2>
+        <p>Coupon Code</p>
+        
+       
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div class=" lg:mx-[450px]"><button class="btn text-green-400 border-green-400">See All Offers</button> </div>
+
+    </section>
+
+   <!-- main section of this assingment -->
+
+
+   <section class="bg-[#F7F8F8] my-10 rounded-2xl border-2 border-t-green-500">
+
+    <h1 class="text-center text-3xl font-extrabold">P.H Paribahan</h1>
+    <p class="text-center mx-28 my-5">These buses are best for the overnight journey, especially when you have to travel long distances.</p>
+ 
+
+
+    <div class="flex border justify-between bg-white">
+
+  <div class="flex ">
+    <div class="">
+      <img src="images/bus-logo.png" alt="">
+    <h1>Greenline Paribahan</h1>
+    <p>Coach-009-WEB ! AC_Business</p>
+    </div>
+    <div  class="mx-72 flex"><img class= "w-1/2" src="images/seat-green.png" alt=""> 40 Seats left</div>
+  </div>
+  <div class="">
+<img src="images/fare.png" alt="">
+<h1>550 Taka</h1>
+<p>Per Seat</p>
+
+  </div>
+
+    </div>
+
+
+  <div class=""> <div class=" gap-4 bg-[#F7F8F8] p-8 my-5 rounded-2xl">
+    <div class="card card-side bg-base-100 shadow-xl ">
     
+    <div class="card-body">
+      <h2 class="card-title font-extrabold text-xl">Route</h2>
+      <p>Departure Time</p>
+       
+    </div>
+
+    <div class="card-body">
+      <h2 class="card-title font-extrabold text-xl">Dhaka - Sylhet</h2>
+      <p>9:00 PM</p>
+      <div class="grid grid-cols-3 gap-2">
+        <div class="bg-slate-200 p-2 rounded-xl gap-2">Boarding Point - Laxmipur</div>
+        <div class="bg-slate-200 p-2 rounded-xl gap-2">Dropping Point - Bogura</div>
+        <div class="bg-slate-200 p-2 rounded-xl gap-2">Est. Time - 11 Hour</div>
+        
+      </div>
+      </div>
+      </div>
+        </div>
+            </div>
+
+   </section>
+
+
+
+        
+    </main>
 </body>
 </html>
